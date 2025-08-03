@@ -244,7 +244,6 @@ Rationale:"""
 
 
 MedQA = pd.read_csv("Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine Supplement 1.csv", encoding='latin1')
-MedQA = MedQA.head(2)
 
 # Create list of tasks
 prompt_templates = [traditional_cot_prompt, ddx_cot_prompt,
